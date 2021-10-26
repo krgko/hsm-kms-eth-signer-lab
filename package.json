@@ -1,0 +1,26 @@
+{
+  "name": "hsm-signing-eth",
+  "version": "1.0.0",
+  "description": "HSM (Hardware Secure Module) supports a proprietary interface and generic interface (PKCS#11)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ethereumjs/common": "^2.5.0",
+    "@ethereumjs/tx": "^3.3.2",
+    "asn1.js": "^5.4.1",
+    "aws-sdk": "^2.1000.0",
+    "bn.js": "^5.2.0",
+    "dotenv": "^10.0.0",
+    "ethereumjs-tx": "^2.1.2",
+    "ethereumjs-util": "^7.1.2",
+    "graphene-pk11": "^2.3.0",
+    "js-sha3": "^0.8.0",
+    "prompt-sync": "^4.2.0",
+    "web3": "^1.5.3"
+  }
+}
